@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--start header -->
+    <header id="myHeader">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo-one.png" class="w-50" alt="">
+                </a>
+                <a href="#" class="nav-link mr-4 d-md-none d-block" aria-expanded="false">
+                    <i class="far fa-user icon-menu "></i>
+                </a>
+                <button class="navbar-toggler" onclick="openNav()"  type="button" 
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <div class="d-flex flex-column ">
+                </button>
+                <div class="navbar-collapse menuClose" id="navbarSupportedContent">
+                    <div class="d-flex flex-row d-md-none">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo-one.png" class="w-50" alt="">
+                    </a>
+                    <a href="#" class="nav-link mr-4" aria-expanded="false">
+                        <i class="far fa-user icon-menu "></i>
+                    </a>
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    </div>
+                    <ul class="navbar-nav mr-auto px-4 mt-4 mt-md-0">
+                        <li class="nav-item active menu-hover d-md-block d-none">
+                            <a class="nav-link mr-2" href="#">Início <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item mr-2 menu-hover">
+                            <a class="nav-link" href="#">Sobre</a>
+                        </li>
+                        <li class="nav-item mr-2 dropdown menu-hover">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Soluções
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                            </div>
+                        </li>
+                        <li class="nav-item mr-2 menu-hover d-md-block d-none">
+                            <a class="nav-link" href="#">Notícias</a>
+                        </li>
+                        <li class="nav-item mr-2 menu-hover  ">
+                            <a class="nav-link" href="#">Atendimento</a>
+                        </li>
+                    </ul>
+                    <div class="right-side px-4 px-md-0">
+                        <ul class="nav flex-column flex-sm-row ">
+                            <li class="nav-item order-sm-0 order-2">
+                                <a href="#" class="nav-link mr-4">
+                                    <i class="fas fa-globe icon-menu mr-1"></i>
+                                    <span class="text-icon">PT-BR</span>
+                                </a>
+                            </li>
+                            <li class="nav-item pt-3 pt-md-0">
+                                <a href="#" class="nav-link mr-4 mobile-style">
+                                    <i class="far fa-calendar icon-menu mr-1"></i>
+                                    <span class="text-icon">Exames e Resultados</span>
+                                </a>
+                            </li>
+                            <li class="nav-item d-md-block d-none">
+                                <a href="#" class="nav-link mr-4">
+                                    <i class="far fa-user icon-menu mr-1"></i>
+                                    <span class="text-icon">login</span>
+                                </a>
+                            </li>
+                            </ul>
+                    </div>
+                </div>
+        </div>
+        </nav>
+        </div>
+    </header>
+    <!--end header -->
+
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="titleHero pt-5">
+                        <h1>Quem observa, transforma.</h1>
+                        <p>Utilizamos tecnologias acessíveis e humanizadas para promover com segurança e rapidez
+                            diagnósticos via DNA e RNA.</p>
+                    </div>
+                </div>
+                <div class="col-md-9  py-4">
+                    <span class="arrow ">
+                        <i class="fas fa-long-arrow-alt-down  d-md-none d-block"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- section 2 -->
+    <section class="about py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 ">
+                    <h2 class="aboutTitle mb-5">Veja como estamos transformando a realidade da Saúde.</h2>
+                </div>
+                <div class="col-md-9"></div>
+            </div>
+            <div class="card-deck">
+                <div class="card">
+                    <img src="images/img.jpg" class="card-img-top rounded-0" alt="picture-about">
+                    <div class="overlay">
+                        <div class="card-body">
+                            <span>Soluções para</span>
+                            <h5 class="card-title mb-5"> Diagnósticos</h5>
+                            <p class="card-text">
+                                Oferecemos soluções de diagnósticos precisos e rápidos, somos a primeira empresa
+                                a realizar Testes de RT-PCR em larga escala no país, com milhares de diagnósticos
+                                realizados diariamente. </p>
+                        </div>
+                        <div class="card-footer pb-4">
+                            <a href="#" class="nav-link ">Saiba mais
+                                <i class="fa fa-chevron-right ml-2" aria-hidden="true"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/img.jpg" class="card-img-top rounded-0" alt="picture-about">
+                    <div class="overlay">
+                        <div class="card-body">
+                            <span>Soluções para</span>
+                            <h5 class="card-title mb-5"> Diagnósticos</h5>
+                            <p class="card-text">
+                                Oferecemos soluções de diagnósticos precisos e rápidos, somos a primeira empresa
+                                a realizar Testes de RT-PCR em larga escala no país, com milhares de diagnósticos
+                                realizados diariamente. </p>
+                        </div>
+                        <div class="card-footer pb-4">
+                            <a href="#" class="nav-link ">Saiba mais
+                                <i class="fa fa-chevron-right ml-2" aria-hidden="true"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/img.jpg" class="card-img-top rounded-0" alt="picture-about">
+                    <div class="overlay">
+                        <div class="card-body">
+                            <span>Soluções para</span>
+                            <h5 class="card-title mb-5"> Diagnósticos</h5>
+                            <p class="card-text">
+                                Oferecemos soluções de diagnósticos precisos e rápidos, somos a primeira empresa
+                                a realizar Testes de RT-PCR em larga escala no país, com milhares de diagnósticos
+                                realizados diariamente. </p>
+                        </div>
+                        <div class="card-footer pb-4">
+                            <a href="#" class="nav-link ">Saiba mais
+                                <i class="fa fa-chevron-right ml-2" aria-hidden="true"></i> </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="images/img.jpg" class="card-img-top rounded-0" alt="picture-about">
+                    <div class="overlay">
+                        <div class="card-body">
+                            <span>Soluções para</span>
+                            <h5 class="card-title mb-5"> Diagnósticos</h5>
+                            <p class="card-text">
+                                Oferecemos soluções de diagnósticos precisos e rápidos, somos a primeira empresa
+                                a realizar Testes de RT-PCR em larga escala no país, com milhares de diagnósticos
+                                realizados diariamente. </p>
+                        </div>
+                        <div class="card-footer pb-4">
+                            <a href="#" class="nav-link ">Saiba mais
+                                <i class="fa fa-chevron-right ml-2" aria-hidden="true"></i> </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- section 2 -->
+
+    <!-- section 3 -->
+    <section class="slider py-5">
+        <div class="dropdown-divider pt-4"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 ">
+                    <h4 class="sliderTitlte mb-5">Notícias TMs</h4>
+                </div>
+                <div class="col-md-9"></div>
+            </div>
+            <div class="owl-carousel owl-theme  ">
+                <div class="item pb-5">
+                    <div class="card  shadow-sm ">
+                        <img src="images/img.jpg" class="card-img-top rounded-0" alt="pic">
+                        <div class="card-body pb-4 ">
+                            <p class="card-text">
+                                Gabriel Rodrigues, CEO do Grupo ETG, apresenta novo protocolo para o setor de eventos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item2 -->
+                <div class="item ">
+                    <div class="card  shadow-sm ">
+                        <img src="images/img.jpg" class="card-img-top rounded-0" alt="pic">
+                        <div class="card-body pb-4 ">
+                            <p class="card-text">
+                                Gabriel Rodrigues, CEO do Grupo ETG, apresenta novo protocolo para o setor de eventos.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- item2 -->
+                <!-- item3 -->
+                <div class="item ">
+                    <div class="card  shadow-sm ">
+                        <img src="images/img.jpg" class="card-img-top rounded-0" alt="pic">
+                        <div class="card-body pb-4 ">
+                            <p class="card-text">
+                                Gabriel Rodrigues, CEO do Grupo ETG, apresenta novo protocolo para o setor de eventos.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- item3 -->
+                <!-- item4 -->
+                <div class="item ">
+                    <div class="card shadow-sm ">
+                        <img src="images/img.jpg" class="card-img-top rounded-0" alt="pic">
+                        <div class="card-body pb-4 ">
+                            <p class="card-text">
+                                Gabriel Rodrigues, CEO do Grupo ETG, apresenta novo protocolo para o setor de eventos.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- item4 -->
+                <!-- item4 -->
+                <div class="item ">
+                    <div class="card  shadow-sm ">
+                        <img src="images/img.jpg" class="card-img-top rounded-0" alt="pic">
+                        <div class="card-body pb-4 ">
+                            <p class="card-text">
+                                Gabriel Rodrigues, CEO do Grupo ETG, apresenta novo protocolo para o setor de eventos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- item4 -->
+            </div>
+        </div>
+    </section>
+
+    <!-- section 3 -->
+
+    <!-- section 4 -->
+    <section class="conson ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 text-white pt-5">
+                    <h3 class="mb-3 ">Temos capacidade para atender todo o Brasil com agilidade.</h3>
+                    <p class="my-4">A TMs está localizada estrategicamente em diferentes estados brasileiros,
+                        além de oferecer soluções personalizadas para atender todo o país.</p>
+                    <div class="row ">
+                        <div class="col-md-5 col-5">
+                            <a href="#" class="nav-link text-uppercase d-none d-md-block">fale conosco </a>
+                            <a href="#" class="nav-link bg-primary d-md-none">fale conosco </a>
+
+                        </div>
+                        <div class="col-md-7"></div>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-5">
+                    <img src="images/health.png" class="w-100 p-5 " alt="pic">
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+
+    </section>
+    <!-- section 4 -->
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row pt-3">
+                <div class="col-md-4  px-0 d-md-flex text-center">
+                    <img src="images/logo.png" class="w-25" alt="logo">
+                </div>
+            </div>
+            <div class="col-md-10"></div>
+            <div class="row my-2">
+                <div class="col-md-8">
+                    <ul class="nav flex-column flex-md-row  ">
+                        <li class="nav-item">
+                            <a class="nav-link mr-2" href="#">Início</a>
+                            <div class="dropdown-divider d-block d-md-none"></div>
+
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link mr-2" href="#">Contato</a>
+                            <div class="dropdown-divider d-block d-md-none"></div>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mr-2" href="#">Política de Privacidade</a>
+                            <div class="dropdown-divider d-block d-md-none"></div>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mr-2" href="#">Termos de Uso</a>
+                            <div class="dropdown-divider d-block d-md-none"></div>
+
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-md-4 ">
+                    <div class="social-media ">
+                        <ul class="nav justify-content-end d-md-flex text-center flex-row ">
+                            <li>
+                                <a href="#" class="nav-link">
+                                    <i class="fab fa-instagram  mr-4"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link">
+                                    <i class="fab fa-facebook-f mr-4"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link">
+                                    <i class="fab fa-youtube mr-4"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="nav-link">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="dropdown-divider my-3"></div>
+
+
+            <!--start sec 3 -->
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="descrip-footer">
+                        <p class="my-0">
+                            © Testes Moleculares. Todos os direitos reservados.
+                        <p> CNPJ: 12.498.977/0001-60 </p>
+                        </p>
+                    </div>
+
+                </div>
+                <div class="col-md-4"></div>
+                <div class="col-md-2 d-md-flex justify-content-end  ">
+                    <img src="images/logo.png" class="w-25" alt="">
+                </div>
+            </div>
+
+            <!--end  sec 3 -->
+
+
+
+
+        </div>
+
+
+
+
+    </footer>
+
+    <!-- footer -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/javascript.js"></script>
+</body>
+
+</html>

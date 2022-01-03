@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+:root{
+    --primaryColor:#30AAF2 ;
+    --secondaryColor:#148CE0 ;
+    --textColor:#151D33;
+    --bakgroundColor:#F2F2F2;
+    --bgColor:#151D33;
+}
+
+/* start Common  */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color:var(--textColor)
+}
+
+.bg-primary{
+    background-color: var(--primaryColor);
+    border-color: var(--secondaryColor);
+}
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+/*  End Common */
+
+/* Start hero section */
+.hero{
+    background-image: url('../images/tyler-lastovich-7FDIUNvKkIU-unsplash.jpg');
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+.arrow{
+    color:var(--primaryColor);
+    font-size: 30px;
+}
+/* .titleHero{
+    position:absolute;
+    top:50px;
+
+} */
+.menu-hover:hover{
+    background-color:#F2F2F2 ;
+    border-radius: 25px;
+    padding:0px 15px
+}
+.dropdown-menu{
+
+    border-radius: 0;
+    border:0;
+    font-size: 14px;
+    color:var(--textColor);
+}
+.dropdown-menu a:hover{
+    background-color: var(--primaryColor);
+    color:#fff
+}
+.icon-menu{
+    color:var(--primaryColor)
+}
+.text-icon{
+    color:var(--textColor);
+    font-size: 14px;
+}
+.sticky{
+    position: fixed;
+    box-shadow: 1px 1px 20px #ccc;
+    top:0;
+    width:100%;
+    z-index: 5;
+    background-color: #fff;
+}
+.navbar-light .navbar-toggler{
+    border-color: transparent;
+}
+.burger{
+    color:var(--primaryColor);
+    font-size: 20px;
+}
+
+@media (min-width:0px) and (max-width:768px){
+    .mobile-style{
+        background-color:#F2F2F2 ;
+        border-radius: 25px;
+        width:60%;
+        padding-left: 20px !important;
+    } 
+    .menuClose{
+        position: fixed;
+        width: 0;
+        top:0;
+        left:0;
+        z-index: 1;
+        background-color: #fff;
+        transition: 0.5s;
+        overflow-x: hidden;
+        height: 100%;
+    
+    
+    }
+    .closebtn{
+        position: absolute;
+        right:20px;
+        top:0;
+        font-size: 18px;
+    
+    }  
+}
+
+
+.titleHero h1{
+    color:var(--primaryColor)
+
+
+}
+.titleHero p{
+
+    font-size: 17px;
+    color:#eee;
+    line-height: 1.7;
+    margin:50px 0;
+    font-weight: normal;
+}
+
+/* Start hero section */
+/* about */
+.about{
+    background-color: var(--bakgroundColor);
+}
+.aboutTitle{
+
+    font-size: 24px;
+}
+.card{
+    border-radius: 0;
+    border:none
+}
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.card-text{
+    font-size: 12px;
+line-height: 1.8;}
+    .card-footer{
+    background-color:transparent;
+    border-top:none;
+    padding: 0rem 1.25rem;
+
+}
+
+    .card-footer a{
+        font-size: 16px;
+        color:var(--primaryColor);
+    }
+ .overlay:hover {
+     background-color: var(--bgColor);
+     color:#fff
+ }
+ .nav-link {
+    padding: 0.5rem 0;}
+
+    /* slider  */
+    .sliderTitlte{
+        color:var(--textColor);
+        font-size: 22px;
+        font-weight: 600;
+    }
+  
+           .card-slider{
+               font-size: 16px;
+               font-weight: 500;
+           }
+           
+           .owl-theme .owl-nav [class*='owl-'] {
+            border-radius:0 !important;
+           }
+        
+           .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+            color: var(--primaryColor);
+            border: 1px solid var(--primaryColor);
+            padding: 0px 28px !important;
+            font-size: 25px;
+           }
+           .owl-theme .owl-nav [class*='owl-']:hover {
+            background-color: var(--primaryColor);
+           }
+           .item:hover{
+               box-shadow: 1px 1px 30px #cccccc;
+           }
+
+    /* slider  */
+
+
+    /* conson */
+
+    .conson{
+        background-color: var(--bgColor);
+
+    }
+    .conson p{
+        font-size: 17px;
+    }
+    .conson h3{
+        font-size: 28px;
+        color: var(--primaryColor);
+    }
+    .conson a{
+        border: 2px solid var(--primaryColor);
+        color:#fff;
+        font-size: 16px;
+        text-align: center;
+    }
+    .conson  a:hover{
+        background-color: var(--primaryColor);
+    }
+    /* conson */
+    /* footer */
+    footer ul li a{
+        color:var(--textColor);
+        font-size: 14px;
+    }
+    .descrip-footer{
+        color:#707070;
+        font-size: 13px;
+    }
+    .social-media ul li a{
+        font-size: 18px;
+        color:#BCBCBC
+    }
+    .social-media ul li a:hover{
+        color:#8F8F8F
+
+    }
+    /* footer */
